@@ -5,6 +5,7 @@ Welcome to **Sunset Adventures!** – a thrilling 2D journey where the magic of 
 ## Game Overview
 
 In **Sunset Adventures!**, you explore a vast 2D map that you designed yourself. As the sun sets over a mysterious forest, your mission is clear:
+
 - **Search for 3 keys** hidden among the trees.
 - Use the keys to **unlock the door** and reveal the secret chest.
 - Uncover **secret power-ups** scattered around the map to gain special abilities and speed boosts.
@@ -23,6 +24,7 @@ Every step in the forest brings you closer to adventure. The game's dynamic envi
 ## Technical Details
 
 **Sunset Adventures!** is developed entirely in Java, showcasing a clean, modular, and object-oriented design:
+
 - **Game Loop & Rendering:** The game uses a robust game loop implemented in `GamePanel.java` that maintains a consistent 60 FPS update and rendering cycle.
 - **Tile-Based Map System:** A custom tile manager loads and renders the game world from a map file, ensuring efficient and dynamic scenery.
 - **Collision Detection:** Comprehensive collision checking is performed through the `CollisionChecker.java` class to manage interactions between the player, objects, and tiles.
@@ -30,12 +32,28 @@ Every step in the forest brings you closer to adventure. The game's dynamic envi
 - **Audio Management:** Sound effects and background music are handled using Java's sound APIs, enhancing the overall gaming experience.
 - **User Interface:** A custom UI built with Swing components provides real-time feedback and a polished title screen for a professional look and feel.
 
-These technical aspects not only deliver a fun gaming experience but also serve as a strong demonstration of my skills in Java programming, game development, and software design.
 
 ## How to Get Started
 
 To play **Sunset Adventures!** on your device:
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/Sunset-Adventures.git
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/Sunset-Adventures.git
+```
+
+### 2. Open in Your IDE
+
+Import the cloned project into your favorite Java IDE (e.g., IntelliJ IDEA, Eclipse, or NetBeans).
+
+### 3. Run the Game
+
+- Locate the `Main.java` file in the project.
+- Run `Main.java` as a Java application.
+
+### 4. Begin Your Adventure
+
+Enjoy exploring the forest, collecting keys, and unlocking the secrets of **Sunset Adventures!**
+
+Embark on your journey and uncover the mysteries that await in **Sunset Adventures!** Happy exploring!
