@@ -32,6 +32,14 @@ Every step in the forest brings you closer to adventure. The game's dynamic envi
 - **Audio Management:** Sound effects and background music are handled using Java's sound APIs, enhancing the overall gaming experience.
 - **User Interface:** A custom UI built with Swing components provides real-time feedback and a polished title screen for a professional look and feel.
 
+## Watch the Playthrough!
+
+Curious to see **Sunset Adventures!** in action? Check out my full gameplay video on YouTube!
+
+[![Sunset Adventures! Playthrough](https://img.youtube.com/vi/qBeScPDWT08/maxresdefault.jpg)](https://www.youtube.com/watch?v=qBeScPDWT08&ab_channel=Paradoxicle)
+
+Click the thumbnail above to watch a full playthrough of the game and see all the exciting features in action!
+
 
 ## How to Get Started
 
