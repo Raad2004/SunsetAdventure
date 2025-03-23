@@ -1,0 +1,146 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the page takes full height */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Image Placeholder */
+.image-placeholder {
+    background-color: #ddd;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #555;
+}
+
+/* Contact Form Container */
+.contact-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Contact Form Title */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Name Fields (Side by Side) */
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Input Fields Styling */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: left;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Center the "Your Question" label */
+.question-group {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.question-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.question-group textarea {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* Textarea (Centered Below Name Fields) */
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Centering the Submit Button */
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+/* Footer Styling (Always at Bottom) */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+    margin-top: auto;
+}
